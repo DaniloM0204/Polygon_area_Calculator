@@ -4,6 +4,8 @@ This is one of my first programs in the GitHub.
 
 This program has the intuit of showing a specific programa that return a calculus about a polygon area.
 
+This project was made in FreeCodeCamp.org by me, and i take him here.
+
 ## The next sentences will decribe the code
 
 ### Assignment
@@ -29,52 +31,10 @@ The Square class should be able to access the Rectangle class methods but should
 
 Additionally, the `set_width` and `set_height` methods on the Square class should set both the width and height.
 
-#### Usage example
-```py
-rect = shape_calculator.Rectangle(10, 5)
-print(rect.get_area())
-rect.set_height(3)
-print(rect.get_perimeter())
-print(rect)
-print(rect.get_picture())
-
-sq = shape_calculator.Square(9)
-print(sq.get_area())
-sq.set_side(4)
-print(sq.get_diagonal())
-print(sq)
-print(sq.get_picture())
-
-rect.set_height(8)
-rect.set_width(16)
-print(rect.get_amount_inside(sq))
-```
-That code should return:
-```
-50
-26
-Rectangle(width=10, height=3)
-**********
-**********
-**********
-
-81
-5.656854249492381
-Square(side=4)
-****
-****
-****
-****
-
-8
-```
-
-The unit tests for this project are in `test_module.py`.
 
 ### Development
 
 Write your code in `shape_calculator.py`. For development, you can use `main.py` to test your `shape_calculator()` function. Click the "run" button and `main.py` will run.
 
 ### Testing 
-
-We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
+ The tests will run automatically whenever you hit the "run" in the main.py archive button.
